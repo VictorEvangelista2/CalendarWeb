@@ -22,7 +22,7 @@
           <th>Dom</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody id="dias">
         <tr>
           <td></td>
           <td></td>
@@ -81,9 +81,20 @@
     <hr>
     <label for="day" min="1" max="31">Dia de preferência:</label>
     <input type="number" id="day" name="day" min="1" max="31">
-    <button type="submit" onclick="colorirDia()">Enviar</button>
+    <button type="submit" id="meuBotao" onclick="colorirDia()">Enviar</button>
 
 <hr>
+
+<div class="legenda">
+  <div class="caminhao azul"></div>
+  Caminhão Azul<br>
+  <div class="caminhao verde"></div>
+  Caminhão Verde<br>
+  <div class="caminhao rosa"></div>
+  Caminhão Rosa<br>
+  <div class="caminhao roxo"></div>
+  Caminhão Roxo<br>
+</div>  
 
 </body>
 </html>

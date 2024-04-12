@@ -21,9 +21,10 @@ input {
 
 }
 tr {
-    font-size: small;
+    font-size: x-large;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 table {
     font-size: small;
@@ -35,7 +36,7 @@ select {
     appearance: none;
     padding: 5px;
     font-size: 16px;
-    width: 180px;
+    width: 150px;
     border: 2px solid black; 
     border-radius: 8px;
     background-color: #fff;     
@@ -95,6 +96,7 @@ label {
     color: #333; 
     margin-bottom: 5px; 
     transition: color 0.3s; 
+    margin: 15px;
 }
 
 label:hover {
@@ -103,4 +105,57 @@ label:hover {
 
 label:focus-within {
     color: #000; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.legenda {
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 9px 9px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 200px;
+    color: white;
+    margin: 10px;
+    
+}
+
+.caminhao {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.azul {
+    background-color: #344ddb;
+}
+
+.verde {
+    background-color: #17bd40;
+}
+
+.rosa {
+    background-color: #e91e63;
+}
+
+.roxo {
+    background-color: #9b59b6;
+}
+
+.dias {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+    grid-row: auto
 }

@@ -9,7 +9,7 @@ function colorirDia() {
         return;
     }
 
-    // Verifica se a cor já foi usada anteriormente
+    
     let usedColors = Array.from(calendar.getElementsByTagName('td'))
                         .filter(day => day.style.backgroundColor === color)
                         .length > 0;
@@ -19,7 +19,11 @@ function colorirDia() {
         return;
     }
 
-    // Aplica a cor selecionada ao dia escolhido
+    document.getElementById('meuBotao').addEventListener('click', function() {
+            colorirDia();
+            alert("Seu frete foi marcado !!! Aguarde o dia selecionado para realização do frete.");
+        });
+
     td.style.backgroundColor = color;
 }
 
