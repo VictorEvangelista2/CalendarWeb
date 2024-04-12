@@ -1,0 +1,106 @@
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 20px;
+
+}
+label {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+tr {
+    font-size: small;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    font-size: small;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+    appearance: none;
+    padding: 5px;
+    font-size: 16px;
+    width: 180px;
+    border: 2px solid black; 
+    border-radius: 8px;
+    background-color: #fff;     
+    color: #333; 
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+select:hover {
+    border-color: #95a2ff;
+}
+
+
+select:focus {
+    border-color: black ;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+input {
+    appearance: none;
+    padding: 8px;
+    font-size: 16px;
+    width: 35px;
+    border: 2px solid black; 
+    border-radius: 8px;
+    background-color: #fff;   
+    
+    color: #333; 
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+button:hover {
+    background-color: #95a2ff; 
+}
+
+button:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+}
+
+label {
+    display: inline-block; /* Garante que o label tenha largura e altura */
+    font-size: 20px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    margin-bottom: 5px; /* Espaçamento inferior */
+    transition: color 0.3s; /* Efeito de transição para a cor do texto */
+}
+
+label:hover {
+    color: #95a2ff; /* Cor do texto mais escura ao passar o mouse */
+}
+
+label:focus-within {
+    color: #000; /* Cor do texto quando o elemento está em foco */
+}
