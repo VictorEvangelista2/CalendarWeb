@@ -90,17 +90,17 @@ button:focus {
 }
 
 label {
-    display: inline-block; /* Garante que o label tenha largura e altura */
-    font-size: 20px; /* Tamanho da fonte */
-    color: #333; /* Cor do texto */
-    margin-bottom: 5px; /* Espaçamento inferior */
-    transition: color 0.3s; /* Efeito de transição para a cor do texto */
+    display: inline-block; 
+    font-size: 20px; 
+    color: #333; 
+    margin-bottom: 5px; 
+    transition: color 0.3s; 
 }
 
 label:hover {
-    color: #95a2ff; /* Cor do texto mais escura ao passar o mouse */
+    color: #95a2ff; 
 }
 
 label:focus-within {
-    color: #000; /* Cor do texto quando o elemento está em foco */
+    color: #000; 
 }
