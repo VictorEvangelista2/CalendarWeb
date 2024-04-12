@@ -35,3 +35,4 @@
 
  ### Neste presente trabalho com as modificações e alterações realizadas tanto no arquivo HTML, CSS e Javascript temos um calendário web que possibilita o usuário marcar um frete selecionando o dia conforme sua preferência e também selecionando o caminhão conforme a cor, sendo assim temos uma legenda que informas as cores dos respectivos caminhões.
  - ![alt text](image-7.png)
+ - ![alt text](gif-1-1.gif)
